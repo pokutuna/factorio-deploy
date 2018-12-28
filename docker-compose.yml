@@ -7,3 +7,5 @@ services:
     volumes:
       - ${PWD}/factorio:/factorio
     restart: always
+    stdin_open: true
+    tty: true
