@@ -1,0 +1,3 @@
+[submodule "modules/pokloy-recipes"]
+	path = modules/pokloy-recipes
+	url = git@github.com:pokutuna/pokloy-recipes.git
