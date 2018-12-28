@@ -57,5 +57,6 @@ end
 task :setup do
   on roles(:app) do
     invoke 'supervisor:setup'
+    execute :sudo, :chown, '-R', "845:845", '/home/pokutuna/apps/factorio-deploy/shared/factorio'
   end
 end
