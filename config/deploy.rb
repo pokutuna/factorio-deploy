@@ -2,7 +2,7 @@
 lock "~> 3.11.0"
 
 set :application, "factorio-deploy"
-set :repo_url, "git@github.com:pokutuna/factorio-deploy.git"
+set :repo_url, "https://github.com/pokutuna/factorio-deploy.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
